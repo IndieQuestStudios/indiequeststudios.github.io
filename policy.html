@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<a href="index.html">Back to Home</a>
+<html lang="en">
 <head>
-<style>
+  <meta charset="UTF-8">
+  <title>Privacy Policy</title>
+
+  <style>
     h1 {
       text-align: center;
       font-size: 75px;
@@ -9,10 +12,52 @@
 
     p {
       text-align: center;
-      font-size: 15px
+      font-size: 15px;
+    }
+
+    .scroll-box {
+      width: 70%;
+      max-width: 800px;
+      height: 300px;
+      margin: 30px auto;
+      padding: 15px;
+      border: 1px solid #999;
+      overflow-y: auto;
+      font-size: 14px;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
     }
   </style>
 </head>
 
-<h1>Private Policy</h1>
-<p>(C) INDIEQUEST STUDIOS</p>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p>(C) INDIEQUEST STUDIOS</p>
+
+  <!-- Scrollable text box -->
+  <div class="scroll-box">
+    <p>
+      This is where your privacy policy text goes.  
+      You can add as much text as you want here, and once it exceeds
+      the height of the box, it will automatically become scrollable.
+    </p>
+
+    <p>
+      Example text: IndieQuest Studios values your privacy. We do not
+      collect personal data unless explicitly provided by the user.
+    </p>
+
+    <p>
+      Add more paragraphs, lists, or even links inside this box.
+    </p>
+  </div>
+
+  <a href="index.html" class="back-link">Back to Home</a>
+
+</body>
+</html>
